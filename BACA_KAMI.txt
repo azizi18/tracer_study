@@ -1,0 +1,23 @@
+PENGGUNA
+=================
+
+Administrator 1
+----------------
+username : superadmin
+password : superadmin
+
+Administrator 2
+----------------
+username : admin
+password : admin
+
+
+Dosen
+----------------
+username : 0011026006
+password : 0011026006
+
+Mahasiswa
+----------------
+username : 3145136208
+password : 3145136208
