@@ -95,7 +95,7 @@
             <form method="post" action="<?php echo base_url(); ?>admin/Beranda/exeUpdateBeranda" enctype="multipart/form-data">
               <div class="card-header d-flex align-items-center">
                 <h3 class="h4">Beranda Alumni</h3>
-                <button type="submit" class="btn btn-primary ml-auto btn-sm">Simpan</button>
+                <button type="submit" class="btn btn-info ml-auto btn-sm">Simpan</button>
               </div>
               <div class="card-body">
                 <div class="form-group">

@@ -19,7 +19,7 @@
           <div class="card">
             <div class="card-header d-flex align-items-center">
               <h3 class="h4">Berita</h3>
-              <a type="button" class="btn btn-primary ml-auto btn-sm" href="<?php echo site_url('admin/Berita/addBerita') ?>"><i class="fas fa-plus-circle"></i> Buat Berita</a>
+              <a type="button" class="btn btn-info ml-auto btn-sm" href="<?php echo site_url('admin/Berita/addBerita') ?>"><i class="fas fa-plus-circle"></i> Buat Berita</a>
             </div>
             <div class="card-body">
               <div class="table-responsive">

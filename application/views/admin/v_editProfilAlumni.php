@@ -18,7 +18,7 @@
                     <form action="<?php echo base_url(); ?>admin/Alumni/exeEditAkun" method="post">
                       <div class="card-header d-flex align-items-center">
                         <h3 class="h4">Akun Alumni</h3>
-                        <button type="submit" class="btn btn-primary ml-auto btn-sm">Simpan</button>
+                        <button type="submit" class="btn btn-info ml-auto btn-sm">Simpan</button>
                       </div>
                       <div class="card-body">
                         <div class="table-responsive">
@@ -55,7 +55,7 @@
                     <form action="<?php echo base_url(); ?>admin/Alumni/exeEditProfil" method="post">
                       <div class="card-header d-flex align-items-center">
                         <h3 class="h4">Data Diri Alumni</h3>
-                        <button type="submit" class="btn btn-primary ml-auto btn-sm">Simpan</button>
+                        <button type="submit" class="btn btn-info ml-auto btn-sm">Simpan</button>
                       </div>
                       <div class="card-body">
                         <div class="table-responsive">
@@ -64,26 +64,6 @@
                               <tr>
                                 <th scope="row">Nama</th>
                                 <td><input type="text" name="nama" value="<?php echo $profil->nama ?>" class="form-control form-control-sm"></td>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <th scope="row">Jenis Kelamin</th>
-                                <td><input type="text" name="jenis_kelamin" value="<?php echo $profil->jenis_kelamin ?>" class="form-control form-control-sm"></td>
-                                <td><input type="hidden" name="id" value="<?php echo $profil->id ?>" class="form-control form-control-sm"></td>
-                              </tr>
-                              <tr>
-                                <th scope="row">Tempat Tanggal Lahir</th>
-                                <td><input type="text" name="tempat_lahir" value="<?php echo $profil->tempat_lahir ?>" class="form-control form-control-sm"></td>
-                                <td><input type="date" name="tanggal_lahir" value="<?php echo $profil->tanggal_lahir ?>" class="form-control form-control-sm"></td>
-                              </tr>
-                              <tr>
-                                <th scope="row">Alamat</th>
-                                <td><textarea name="alamat" rows="3" class="form-control"><?php echo $profil->alamat ?></textarea></td>
-                                <td></td>
-                              </tr>
-                              <tr>
-                                <th scope="row">Tahun Masuk</th>
-                                <td><input type="text" name="tahun_masuk" value="<?php echo $profil->tahun_masuk ?>" class="form-control form-control-sm"></td>
                                 <td></td>
                               </tr>
 

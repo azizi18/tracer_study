@@ -55,16 +55,12 @@ class Data extends CI_Controller
 
 			$data_alumni = array(
 				'nama' => $this->input->post('nama'),
-				'jenis_kelamin' => $this->input->post('jenis_kelamin'),
-				'tahun_masuk' => $this->input->post('tahun_masuk'),
 				/*'bulan_lulus' => $bulan_lulus,
 				'tahun_lulus' => $tahun_lulus,*/
 				'tahun_lulus' => $this->input->post('tahun_lulus'),
 				'nik' => $this->input->post('nik'),
 				'npwp' => $this->input->post('npwp'),
 				'alamat' => $this->input->post('alamat'),
-				'tempat_lahir' => $this->input->post('tempat_lahir'),
-				'tanggal_lahir' => $this->input->post('tanggal_lahir'),
 				'email' => $this->input->post('email'),
 				'no_telepon' => $this->input->post('no_telepon'),
 			);

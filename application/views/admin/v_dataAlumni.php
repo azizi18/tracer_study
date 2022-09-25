@@ -26,7 +26,7 @@
           <div class="card">
             <div class="card-header d-flex align-items-center">
               <h3 class="h4">Alumni <?php echo $this->m_master->getProdiByID($prodiID)->nama_prodi ?></h3>
-              <button type="button" class="btn btn-primary ml-auto btn-sm" data-toggle="modal" data-target="#modalTambah"><i class="fas fa-user-plus"></i> Tambah Akun</button>
+              <button type="button" class="btn btn-info ml-auto btn-sm" data-toggle="modal" data-target="#modalTambah"><i class="fas fa-user-plus"></i> Tambah Akun</button>
               <button type="button" class="btn btn-dark ml-3 btn-sm" data-toggle="modal" data-target="#modalImport"><i class="fas fa-cloud-upload-alt"></i> Import</button>
             </div>
             <div class="card-body">
@@ -37,7 +37,6 @@
                       <th>No</th>
                       <th>Nama</th>
                       <th>NIM</th>
-                      <th>Angkatan</th>
                       <th>Tahun Lulus</th>
                       <th></th>
                     </tr>
@@ -51,7 +50,6 @@
                         <th scope="row"><?php echo $no++ ?></th>
                         <td><?php echo $d->nama ?></td>
                         <td><?php echo $d->nim ?></td>
-                        <td><?php echo $d->tahun_masuk ?></td>
                         <td><?php echo $d->tahun_lulus ?></td>
                         <td>
                           <div class="btn-group btn-group-toggle">
@@ -88,20 +86,10 @@
             <input type="text" placeholder="" class="form-control" name="nama" required>
           </div>
           <div class="form-group">
-            <label>No Nim</label>
+            <label>No Mahasiswa</label>
             <input type="text" placeholder="" class="form-control" name="nim" required>
           </div>
-          <div class="form-group">
-            <label>Jenis Kelamin</label>
-            <select name="jenis_kelamin" class="form-control" required>
-              <option value="Laki-laki">Laki-laki</option>
-              <option value="Perempuan">Perempuan</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label>Tahun Masuk</label>
-            <input type="text" placeholder="" class="form-control" name="tahun_masuk" required>
-          </div>
+
           <div class="form-group">
             <label>Tahun Lulus</label>
             <input type="text" placeholder="" class="form-control" name="tahun_lulus" required>
@@ -134,7 +122,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" data-dismiss="modal" class="btn btn-secondary">Tutup</button>
-          <button type="submit" class="btn btn-primary">Simpan</button>
+          <button type="submit" class="btn btn-info">Simpan</button>
         </div>
         </form>
       </div>

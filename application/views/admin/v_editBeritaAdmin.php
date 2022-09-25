@@ -150,7 +150,7 @@
                  </div>
                  <div class="line"></div>
                  <div class="form-group">
-                   <button type="submit" class="btn btn-primary ml-auto">Simpan</button>
+                   <button type="submit" class="btn btn-info ml-auto">Simpan</button>
                  </div>
                </form>
              </div>

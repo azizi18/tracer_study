@@ -13,7 +13,7 @@
                   <div class="card">
                     <div class="card-header d-flex align-items-center">
                       <h3 class="h4">Kaprodi</h3>
-                      <button type="button" class="btn btn-primary ml-auto btn-sm" data-toggle="modal" data-target="#modalGanti"><i class="fas fa-user-edit"></i> Ganti Kaprodi</button>
+                      <button type="button" class="btn btn-info ml-auto btn-sm" data-toggle="modal" data-target="#modalGanti"><i class="fas fa-user-edit"></i> Ganti Kaprodi</button>
                     </div>
                     <div class="card-body">
                       <div class="table-responsive">
@@ -76,7 +76,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" data-dismiss="modal" class="btn btn-secondary">Tutup</button>
-                    <button type="submit" class="btn btn-primary">Simpan</button>
+                    <button type="submit" class="btn btn-info">Simpan</button>
                   </div>
                   </form>
                 </div>

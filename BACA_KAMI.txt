@@ -1,16 +1,20 @@
 PENGGUNA
 =================
 
-Administrator 1
+Administrator Superadmin
 ----------------
 username : superadmin
 password : superadmin
 
-Administrator 2
+Administrator Prodi SI 
 ----------------
-username : admin
-password : admin
+username : admin1
+password : admin1
 
+Administrator Prodi TL
+----------------
+username : admin2
+password : admin2
 
 Dosen
 ----------------
@@ -21,3 +25,6 @@ Mahasiswa
 ----------------
 username : 3145136208
 password : 3145136208
+
+
+https://bootstrapious.com/p/admin-template
