@@ -112,7 +112,7 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" data-dismiss="modal" class="btn btn-secondary">Tutup</button>
-                  <button type="submit" class="btn btn-simpan">Simpan</button>
+                  <button type="submit" class="btn btn-info simpan">Simpan</button>
                 </div>
                 </form>
               </div>

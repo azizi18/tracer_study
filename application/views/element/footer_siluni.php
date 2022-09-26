@@ -164,7 +164,7 @@
                  <!--Info-->
                  <p align="justify justify-content-center"><i class="fas fa-home pr-1"></i> <?php echo (!empty($kontak['alamat']) ? $kontak['alamat'] : 'jl.Pendidikan No.6 Mataram'); ?></p>
                  <p align="justify justify-content-center"><i class=" fas fa-envelope pr-1"></i> <?php echo (!empty($kontak['email']) ? $kontak['email'] : 'fteknik@unu-ntb.ac.id'); ?></p>
-                 <p align="justify justify-content-center "><i class=" fas fa-phone pr-1"></i> <?php echo (!empty($kontak['no_telp']) ? $kontak['no_telp'] : '087745551231'); ?></p>
+                 <p align="justify justify-content-center "><i class=" fas fa-phone pr-1"></i> <?php echo (!empty($kontak['no_telp']) ? $kontak['no_telp'] : '082342136400'); ?></p>
 
 
 

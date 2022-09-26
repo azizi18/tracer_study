@@ -120,7 +120,7 @@
                      <select name="kategori" class="form-control mb-3">
                        <option value=""></option>
                        <option value="Info Alumni">Info Alumni</option>
-                       <option value="Tips Karir">Tips Karir</option>
+                       <option value="Tips Karir">Kegiatan</option>
                        <option value="Lowongan Kerja">Lowongan Kerja</option>
                      </select>
                    </div>
@@ -141,7 +141,7 @@
                  </div>
                  <div class="line"></div>
                  <div class="form-group">
-                   <button type="submit" class="btn btn-primary ml-auto">Simpan</button>
+                   <button type="submit" class="btn btn-info ml-auto">Simpan</button>
                  </div>
                </form>
              </div>

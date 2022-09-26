@@ -148,7 +148,7 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" data-dismiss="modal" class="btn btn-secondary">Tutup</button>
-                  <button type="submit" class="btn btn-primary">Simpan</button>
+                  <button type="submit" class="btn btn-info">Simpan</button>
                 </div>
                 </form>
               </div>

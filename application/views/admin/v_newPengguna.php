@@ -29,7 +29,7 @@
                       <div class="card-header d-flex align-items-center">
                         <h3 class="h4">Pengguna Alumni</h3>
                         <!-- <button type="button" class="btn btn-primary ml-auto btn-sm"><i class="fas fa-user-plus"></i> Tambah Data</button> -->
-                        <button type="submit" class="btn btn-primary btn-sm ml-auto">Simpan</button>
+                        <button type="submit" class="btn btn-info btn-sm ml-auto">Simpan</button>
                       </div>
                       <div class="card-body">
                         <div class="table-responsive">

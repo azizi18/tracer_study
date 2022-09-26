@@ -42,46 +42,7 @@
                       <input type="text" class="form-control" value="<?php echo $profil->nim ?>" disabled>
                     </div>
                   </div>
-                  <div class="line"></div>
-                  <div class="form-group row">
-                    <label class="col-sm-3 form-control-label">Tempat/Tanggal Lahir</label>
-                    <div class="col-sm-9">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <input type="text" class="form-control" name="tempat_lahir" value="<?php echo $profil->tempat_lahir ?>">
-                        </div>
-                        <div class="col-md-6">
-                          <input type="date" name="tanggal_lahir" value="<?php echo $profil->tanggal_lahir ?>" class="form-control">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="line"></div>
-                  <div class="form-group row">
-                    <label class="col-sm-3 form-control-label">Jenis Kelamin</label>
-                    <div class="col-sm-9">
-                      <select name="jenis_kelamin" class="form-control mb-3">
-                        <option><b><?php echo $profil->jenis_kelamin ?></b></option>
-                        <option value="Laki-laki">Laki-laki</option>
-                        <option value="Perempuan">Perempuan</option>
-                      </select>
-                    </div>
-                  </div>
 
-                  <div class="line"></div>
-                  <div class="form-group row">
-                    <label class="col-sm-3 form-control-label">Alamat Rumah</label>
-                    <div class="col-sm-9">
-                      <textarea class="form-control" name="alamat" rows="5"><?php echo $profil->alamat ?></textarea>
-                    </div>
-                  </div>
-                  <div class="line"></div>
-                  <div class="form-group row">
-                    <label class="col-sm-3 form-control-label">Tahun Masuk</label>
-                    <div class="col-sm-3">
-                      <input type="text" name="tahun_masuk" class="form-control" value="<?php echo $profil->tahun_masuk ?>">
-                    </div>
-                  </div>
                   <div class="line"></div>
                   <div class="form-group row">
                     <label class="col-sm-3 form-control-label">Tahun Lulus</label>
@@ -120,7 +81,7 @@
 
                   <div class="line"></div>
                   <div class="form-group">
-                    <button type="submit" class="btn btn-primary ml-auto">Simpan</button>
+                    <button type="submit" class="btn btn-info ml-auto">Simpan</button>
                   </div>
                 </form>
               </div>

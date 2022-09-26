@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Sistem Informasi Tracer Study </title>
+  <title>Tracer Study FT-UNU NTB</title>
   <link rel="icon" href="<?php echo base_url('assets/siluni//images/logof.png') ?>" type="image/x-icon">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">

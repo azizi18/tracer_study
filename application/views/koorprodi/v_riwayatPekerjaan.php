@@ -31,41 +31,12 @@
                         <td></td>
                       </tr>
                       <tr>
-                        <th scope="row">Jenis Kelamin</th>
-                        <td>
-                          <p><?php echo $profil->jenis_kelamin ?></p>
-                        </td>
-                        <td></td>
-                      </tr>
-                      <tr>
                         <th scope="row">No Mahasiswa</th>
                         <td>
                           <p><?php echo $profil->nim ?></p>
                         </td>
                         <td></td>
                       </tr>
-                      <tr>
-                        <th scope="row">Tempat Tanggal Lahir</th>
-                        <td>
-                          <p><?php echo $profil->tempat_lahir ?>, <?php echo $profil->tanggal_lahir ?></p>
-                        </td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Alamat</th>
-                        <td>
-                          <p><?php echo $profil->alamat ?></p>
-                        </td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Tahun Masuk</th>
-                        <td>
-                          <p><?php echo $profil->tahun_masuk ?></p>
-                        </td>
-                        <td></td>
-                      </tr>
-
                       <tr>
                         <th scope="row">Tahun Lulus</th>
                         <td>

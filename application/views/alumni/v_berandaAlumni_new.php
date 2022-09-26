@@ -128,7 +128,7 @@
 
                         <div class="line"></div>
                         <div class="form-group row" style="margin-left: 30px">
-                          <button type="submit" style="float: right;" class="btn btn-primary">Simpan</button>
+                          <button type="submit" style="float: right;" class="btn btn-info">Simpan</button>
                         </div>
                       </form>
                     </div> <!-- tab data diri -->
@@ -145,7 +145,7 @@
                           $j++;
                       ?>
                           <h4><?php echo $this->m_master->getInstansiByID($k->id_instansi)->nama_instansi ?></h4>
-                          <button type="button" class="btn btn-outline-primary btn-sm" data-toggle="collapse" data-target="#form_pekerjaan<?php echo $j ?>">Lengkapi Data</button>
+                          <button type="button" class="btn btn-outline-info btn-sm" data-toggle="collapse" data-target="#form_pekerjaan<?php echo $j ?>">Lengkapi Data</button>
                           <div style="padding-top: 10px" id="form_pekerjaan<?php echo $j ?>" class="collapse">
                             <!-- <form class="form-horizontal" method="post" action="<?php echo base_url(); ?>alumni/Data/exeUpdatePekerjaan">  -->
                             <form class="form-horizontal exeUpdatePekerjaan" id="formUpdatePekerjaan_<?php echo $j ?>" onsubmit="return exeUpdatePekerjaan(<?php echo $j ?>)">
@@ -476,7 +476,7 @@
                         <input type="hidden" class="form-control" value="<?php echo $alumniID ?>" name="alumniID">
                         <div class="form-group row">
                           <div class="col-sm-4 offset-sm-5 mb-3">
-                            <button type="submit" class="btn btn-primary">Simpan Jawaban</button>
+                            <button type="submit" class="btn btn-info">Simpan Jawaban</button>
                           </div>
                         </div>
                       </form>

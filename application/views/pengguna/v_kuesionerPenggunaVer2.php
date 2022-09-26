@@ -161,7 +161,7 @@
                 </div>
                 <div class="form-group row">
                   <div class="col-sm-4 offset-sm-5 mb-3">
-                    <button type="submit" class="btn btn-primary">Simpan Jawaban</button>
+                    <button type="submit" class="btn btn-info">Simpan Jawaban</button>
                   </div>
                 </div>
               </form>
@@ -202,7 +202,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" data-dismiss="modal" class="btn btn-secondary">Tutup</button>
-            <button type="submit" class="btn btn-primary">Tambah</button>
+            <button type="submit" class="btn btn-info">Tambah</button>
             </form>
           </div>
         </div>

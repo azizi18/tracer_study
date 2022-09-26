@@ -55,7 +55,7 @@
                   </div>
                   <div class="line"></div>
                   <div class="form-group">
-                    <button type="submit" class="btn btn-primary ml-auto">Submit</button>
+                    <button type="submit" class="btn btn-info ml-auto">Submit</button>
                   </div>
                 </form>
               </div>

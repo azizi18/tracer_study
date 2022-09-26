@@ -1,5 +1,5 @@
 <main>
-	<div class="container-fluid" style="padding-top: 6rem">
+	<div class="container-fluid" style="padding-top: 7rem">
 		<!--Carousel Wrapper-->
 		<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
 			<!--Indicators-->
@@ -61,20 +61,12 @@
 									yang berbasis pada kebutuhan terkini pada institusi dan sebagai salah satu syarat dalam akreditasi.
 								</p>
 
-								<h4 class="card-title"><b>Fakultas Teknik UNU NTB</b></h4>
+								<h4 class="card-title"><b>Fakultas Teknik Universitas Nadhlatul Ulama NTB</b></h4>
 								<p class="card-text">
-									<img style="width: 90px; height: 90px" src="<?php echo base_url(); ?>/assets/siluni/images/logof.png">
-									<img style="width: 90px; height: 90px" src="<?php echo base_url(); ?>/assets/siluni/images/unu.jpg">
-								<p align="justify">
-									Sistem Informasi Tracer Study merupakan aplikasi berbasis web untuk melaksanakan pemetaan terhadap lulusan.
-									Sistem digunakan untuk menjaring data dari para alumni yang belum atau telah bekerja, kuliah maupun berwirausaha,
-									umumnya dilakukan cara mengisi kuisioner Google Form yang di kirim ke Alumni.
-								</p>
-								<p align="justify">
-									Hasil dari pemetaan lulusan ini nantinya diharapkan dapat digunakan dalam penyusunan kurikulum
-									yang berbasis pada kebutuhan terkini pada institusi dan sebagai salah satu syarat dalam akreditasi.
-								</p>
-								<!--/About -->
+									<img style="width: 100px; height: 100px" src="<?php echo base_url(); ?>/assets/siluni/images/logof.png">
+									<img style="width: 100px; height: 100px" src="<?php echo base_url(); ?>/assets/siluni/images/unu.jpg">
+
+									<!--/About -->
 
 								</p>
 								<!--/About -->

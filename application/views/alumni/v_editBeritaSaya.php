@@ -122,7 +122,7 @@
                      <select name="kategori" class="form-control mb-3">
                        <option value="<?php echo $berita->kategori ?>"><b><?php echo $berita->kategori ?></b></option>
                        <option value="Info Alumni">Info Alumni</option>
-                       <option value="Tips Karir">Tips Karir</option>
+                       <option value="Tips Karir">kegiatan</option>
                        <option value="Lowongan Kerja">Lowongan Kerja</option>
                      </select>
                    </div>
